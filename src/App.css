@@ -1,10 +1,53 @@
-.App {
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+h1{
   text-align: center;
+}
+.password{
+  /* padding:5px; */
+  border:.5px solid grey;
+  border-radius: 10px;
+  margin:20px 0px;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.App {
+ padding:20px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.password-length{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding:20px 0;
+}
+.password-length label{
+  font-weight: 700;
+}
+button{
+  width: 100%;
+  padding:12px;
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  color:white;
+  margin:10px 0px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: rgb(81, 158, 3);
+}
+.copy{
+  width: fit-content;
 }
 
 @media (prefers-reduced-motion: no-preference) {
